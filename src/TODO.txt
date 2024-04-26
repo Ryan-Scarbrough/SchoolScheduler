@@ -1,0 +1,52 @@
+- SOLVED: there is a bug in javafx where menu items stay focused after unhover
+- SOLVED: currently, deleting an item only modifies the stored list in the respective ui class,
+needs to actually modify data in algorithm.Algorithm.data
+- SOLVED: importing data for display.GradesDisplay is currently hard coded, link it to the import button in
+its parent class (this file)
+- SOLVED (gonna call this intentional): you can currently import a file multiple times, and it duplicates data, decide if this should happen
+- DONE: add way to cycle through multiple different schedules
+- DONE: remove debug print statements
+- DONE: prompt user to save data before exiting if they changed something
+and if it should clear data fields
+- DONE: the text when the table is empty is black. Make it white
+
+- add way to move classes around in the view menu. The menu should be able to highlight red
+if its an invalid position and green if its valid
+
+HIGH PRIORITY:
+- add way to remove constraint
+
+- FIXED: clicking on view before there is data breaks the algorithm. It no longer functions
+- FIXED: there is a bug where if you click on constraints and go to view. it shows as blank. Only happens if there is more than
+one item in the generatedSchedules list which might be a hint
+- FIXED (i think): bug where if you click on view, then go to constraints, then go to view it shows the save button at the top
+- DONE: make constraints. It should be an empty grid of (periods x grades) and the user should be able to click on a box
+to set the class that should be there
+- FIXED: going from view to constraints duplicates the save button and the arrows
+- DONE: Make previous button work, only the next button works right now
+- FIXED: updating the data and then going to the algorithm to check doesnt actually force the algorithm to run again
+- FIXED: clicking view and then loading data, then clicking view again causes the program to display nothing in the
+subject slots. The grades and periods are correctly displayed though
+- DONE: when the application is started, it shows "initial content", it should display the import/export section instead
+- DONE: add information about class when you hover over it in the view menu
+- DONE: add way to save schedule to a pdf or json or something
+- DONE: add ability to export data once modified
+- DONE: make a data clear button in the data screen. It should ask for confirmation before deleting everything
+- (it fixed itself maybe? idk, cant reproduce) for some reason when using 3 periods and 3 grades and only one class,
+the class is assigned to two different periods
+- DONE: clicking view after leaving causes the program to calculate the next possibility. dont do this
+
+LOW PRIORITY:
+- Add a info box at the top of the view menu recommending using constraints if theyre looking for something specific
+- when sorting grades it only sort based on the first digit (10 comes before 9 etc.) (this is annoying to fix and
+likely wont be noticed by user so its low priority)
+- if there is not data to make a schedule with, do not display the arrows and save button
+- currently it displays all grades through the range. So if you input grade 1 and grade 10, but not 1-10, it will
+still try to display 1-10.
+- make the save button for a schedule only save the top rows and exclude the bottom row which has the arrows and the
+save button
+- make sure you cant spam click the next button, it sometimes crashes the program
+- sometimes the program just stalls if you try to cycle to next schedule. Make a way to stop and retry?
+- add way to see which schedule you're on
+
+

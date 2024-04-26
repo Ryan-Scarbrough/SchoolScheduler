@@ -1,0 +1,223 @@
+.root {
+    -fx-font-size: 14pt;
+    -fx-background-color: #3f4245;
+}
+
+#navbar {
+    -fx-background-color: #39578b;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+
+.label-section {
+    -fx-padding: 10 50 10 50;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.label-section:hover {
+    -fx-background-color: #2c446d;
+}
+
+#content {
+    -fx-padding: 20;
+    -fx-text-fill: white;
+}
+
+
+#button {
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-background-color: #39578b;
+    -fx-font-size: 18pt;
+
+    /* TOP RIGHT BOTTOM LEFT */
+    -fx-padding: 20 30 20 30;
+    -fx-border-insets: 10;
+    -fx-background-insets: 10;
+}
+
+#button:hover {
+    -fx-background-color: #2c446d;
+}
+
+#buttonContainer {
+    -fx-alignment: center-left;
+    -fx-padding: 50;
+}
+
+#filePathLabel {
+    -fx-padding: 20;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+
+.inputContainer {
+    -fx-padding: 50;
+    -fx-text-fill: white;
+}
+
+.inputLabel {
+    -fx-text-fill: white;
+}
+
+.input {
+    -fx-text-fill: black;
+}
+
+.table-view {
+    -fx-background-color: #3f4245;
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #27292b;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #2c446d;
+}
+
+.table-column {
+    -fx-text-fill: white;
+}
+
+.table-column-header {
+    -fx-background-color: #39578b;
+    -fx-text-fill: white;
+}
+
+.table-column-header:hover {
+    -fx-background-color: #2c446d;
+}
+
+/* ContextMenu styling */
+.context-menu {
+    -fx-background-color: #3f4245;
+    -fx-text-fill: white;
+}
+
+/* MenuItem styling */
+.menu-item {
+    -fx-text-fill: white;
+    -fx-background-color: #3f4245;
+}
+
+.menu-item:hover {
+    -fx-background-color: #2c446d;
+    -fx-text-fill: white;
+}
+
+/* ScrollBar styling */
+.scroll-bar {
+    -fx-background-color: #2c446d;
+}
+
+/* ScrollBar track and thumb styling */
+.scroll-bar .track {
+    -fx-background-color: #3f4245;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #39578b;
+}
+
+/* ScrollBar arrows styling */
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #39578b;
+    -fx-shape: null; /* Removes the default arrow shape */
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-shape: null; /* Removes the default arrow shape */
+}
+
+/* Apply a background color to the popup content */
+.check-combo-box-popup .list-view {
+    -fx-background-color: #3f4245;
+}
+
+/* Apply a background color to the checkboxes in the popup */
+.check-combo-box-popup .check-box {
+    -fx-background-color: #3f4245;
+}
+
+.timeInput {
+    -fx-max-height: 35px;
+}
+
+/* Add these styles for the GridPane */
+.grid-pane {
+    -fx-background-color: #3f4245;
+    -fx-alignment: center;
+}
+
+/* Add these styles for the GridPane cells inside bubbles */
+.grid-pane .label {
+    -fx-background-color: #27292b;
+    -fx-text-fill: white;
+    -fx-font-size: 16pt;
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+}
+
+.grid-pane .label:hover {
+    -fx-background-color: #2c446d;
+    -fx-cursor: hand;
+}
+
+.grid-pane .grid-pane-cell-first-column:hover {
+    -fx-background-color: #39578b;
+    -fx-cursor: default;
+}
+
+.grid-pane .grid-pane-cell-top-row :hover{
+    -fx-background-color: #39578b;
+    -fx-cursor: default;
+}
+
+/* Add styles for the first column cells */
+.grid-pane .grid-pane-cell-first-column {
+    -fx-background-color: #39578b;
+    -fx-background-radius: 10;
+}
+
+/* Add styles for the top row cells */
+.grid-pane .grid-pane-cell-top-row {
+    -fx-background-color: #39578b;
+    -fx-background-radius: 10;
+}
+
+
+.grid-pane .label {
+    -fx-background-color: #27292b;
+    -fx-text-fill: white;
+    -fx-font-size: 16pt;
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+    -fx-pref-width: 200px; /* */
+    -fx-pref-height: 50px; /* */
+    -fx-alignment: center;
+}
+
+.grid-pane .grid-pane-cell-first-column {
+    -fx-background-color: #39578b;
+    -fx-background-radius: 10;
+    -fx-pref-width: 200px; /* */
+    -fx-pref-height: 50px; /* */
+    -fx-alignment: center;
+}
+
+.grid-pane .grid-pane-cell-top-row {
+    -fx-background-color: #39578b;
+    -fx-background-radius: 10;
+    -fx-pref-width: 200px; /* */
+    -fx-pref-height: 50px; /* */
+    -fx-alignment: center;
+}
+
+.text{
+    -fx-font-smoothing-type: gray;
+}
