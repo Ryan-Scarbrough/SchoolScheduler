@@ -2,10 +2,12 @@
 # School Scheduler
 
 ## How to Use
-- Add data by using the following sub-menus under the "Data" tab
+- First download the prebuilt application for your specific computer and architecture.
+
+- You can add data by using the following sub-menus under the "Data" tab
 ![screenshot](https://github.com/Ryan-Scarbrough/SchoolScheduler/blob/main/docs/imgs/1.png?raw=true)
 
--  If you already have data you can use the import button located on the "Data" tab. You can also export or clear data from here if you've already added some data.                                                        
+- If you already have data you can use the import button located on the "Data" tab. You can also export or clear data from here if you've already added some data.                                                        
 ![screenshot](https://github.com/Ryan-Scarbrough/SchoolScheduler/blob/main/docs/imgs/2.png?raw=true)
 
 - Items in the sub-menus can also be deleted by right-clicking on the row and clicking the delete button. Additionally, items can be sorted by clicking on the column name that you would like to sort by. Clicking multiple times cycles through modes (ascending, descending, no sort).
