@@ -3,7 +3,7 @@
 
 ## How to Use
 - Add data by using the following sub-menus under the "Data" tab
-![alt text]([https://imgur.com/fA6V9O4](https://github.com/Ryan-Scarbrough/SchoolScheduler/blob/main/docs/imgs/1.png?raw=true))
+![screenshot](https://github.com/Ryan-Scarbrough/SchoolScheduler/blob/main/docs/imgs/1.png?raw=true)
 
 -  If you already have data you can use the import button located on the "Data" tab. You can also export or clear data from here if you've already added some data.
 ![alt text](https://imgur.com/wManpXK)
