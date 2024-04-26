@@ -35,6 +35,8 @@
 - Spam clicking the next button in the "View" tab will crash the program. Again, this is something where there is not much to be done. Spam clicking a button that executes an intensive task will always result in some sort of hiccup. 
 
 ## Prebuilt Applications
+Currently, the only supported operating system is macOS, although porting over to other operating systems should be easy ***in theory***. The application is untested on Intel Macs because I don't know anyone who has one. It does work on Apple Silicon Macs even though the application is compiled with an x86 JDK. You might be asking yourself: why is it compiled with an x86 JDK when it works on Apple Silicon? For some reason, the application crashes complaining that it needs x86 when compiled with an arm64 JDK. My best guess as to why is because macOS automatically tries to run the application through Rosetta without being instructed to. Just a theory though.
+
 [MacOS](https://www.dropbox.com/scl/fi/jdavvuta63sovd58v0h6q/School-Scheduler_x86.dmg?rlkey=62n3n4mvdff4berp4b8mchw74&st=9u3e02i8&dl=0)
 
 
