@@ -35,6 +35,6 @@
 - Spam clicking the next button in the "View" tab will crash the program. Again, this is something where there is not much to be done. Spam clicking a button that executes an intensive task will always result in some sort of hiccup. 
 
 ## Prebuilt Applications
-[Mac (Apple Silicon)]([https://www.dropbox.com/scl/fi/qax0oxo71rc9sz6077bqk/SchoolScheduler_x86.dmg?rlkey=c2n1idmke8t2xf4r79xpbzkjb&st=9vwhpxp1&dl=0](https://www.dropbox.com/scl/fi/qax0oxo71rc9sz6077bqk/SchoolScheduler_x86.dmg?rlkey=c2n1idmke8t2xf4r79xpbzkjb&st=9vwhpxp1&dl=0))
+[MacOS](https://www.dropbox.com/scl/fi/jdavvuta63sovd58v0h6q/School-Scheduler_x86.dmg?rlkey=62n3n4mvdff4berp4b8mchw74&st=9u3e02i8&dl=0)
 
 
