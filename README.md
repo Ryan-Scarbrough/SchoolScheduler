@@ -29,7 +29,7 @@
 - In extreme circumstances, the program can freeze entirely and will not recover. The user will be forced to close the program and restart it. The reason for this is unknown and attempts to fix the problem simply created more problems. Please export your data as you input it to prevent this.
 
 ## Known Bugs
-- The program sometimes freezes and does not recover as mentioned previously. The reasons for this are unknown.
+- The program sometimes freezes and does not recover as mentioned previously. The reasons for this are unknown other than it has something to do with loading the algorithm at certain times.
 - Because of JavaFX's spotty support for MacOS, the text on the Mac-specific application can sometimes be fuzzy. This is related to a bug with JavaFX and there is nothing that can be done. In an attempt to remedy this, anti-aliasing has been set to grey so that black text does not turn into a rainbow. The text will still look a bit fuzzy, though. 
 - Items that are listed in the data entry sub-sections can be sorted by clicking on the column name. This works most of the time, but it is unable to account for multiple characters during type changes. For example, if you have grade 20 and grade 1 and attempt to sort the entries in descending order, the program will put 1 above 20, which is backwards. This is because of type conversion and JavaFX not recognizing these as integers, but rather treating them as strings.
 - Spam clicking the next button in the "View" tab will crash the program. Again, this is something where there is not much to be done. Spam clicking a button that executes an intensive task will always result in some sort of hiccup. 
